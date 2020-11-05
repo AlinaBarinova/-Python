@@ -15,7 +15,7 @@ def asking(text: str, check=False) -> int:
         return user_number
 
 
-def division(a: float, b: float) -> float:
+def div(a: float, b: float) -> float:
     result = a / b
     return result
 
@@ -27,5 +27,5 @@ while True:
     num_2 = asking('Введите второе число\n>>> ', True)
     if num_2 is None:
         break
-    print(division(num_1, num_2), '\n')
+    print(div(num_1, num_2), '\n')
 
