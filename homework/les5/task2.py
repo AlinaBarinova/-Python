@@ -1,5 +1,5 @@
 cnt_lines, cnt_words = 0, []
-with open('file_task2.txt') as open_file:
+with open('file_task2.txt', 'r', encoding='UTF-8') as open_file:
     for line in open_file:
         cnt_lines += 1
         cnt_words.append(line.count(' ') + 1)
